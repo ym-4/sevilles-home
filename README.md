@@ -14,11 +14,6 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/status-active-ffb3c9?style=for-the-badge&labelColor=ff8fab)
-![Made with love](https://img.shields.io/badge/made%20with-%F0%9F%92%96-ff69b4?style=for-the-badge&labelColor=ff8fab)
-![Pets](https://img.shields.io/badge/pets-7%20breeds-b46bd6?style=for-the-badge&labelColor=ff8fab)
-![License](https://img.shields.io/badge/license-educational-8fd3ff?style=for-the-badge&labelColor=ff8fab)
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -717,7 +712,6 @@ This project is created as an educational assignment for BED CA2.
 <img src="https://media.tenor.com/3tbpcFyQdVoAAAAm/blue-roll.webp" alt="blue roll" width="120"/>
 
 **Happy Pet Raising! 🐾**
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFC8DD&height=120&section=footer" alt="footer" width="100%"/>
 
 </div>
