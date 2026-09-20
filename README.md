@@ -1,8 +1,43 @@
+<a id="top"></a>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Seville%27s%20Home&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20Cozy%20Pet%20Corner%20%E2%80%A2%20Wellness%20Challenge%20Gamification%20Platform&descAlignY=60&descSize=18" alt="Seville's Home banner" width="100%"/>
+
+<img src="https://media.tenor.com/3tbpcFyQdVoAAAAm/blue-roll.webp" alt="blue roll" width="140"/>
+
+<img src="./assets/ascii-pet.svg" alt="Animated ASCII pet" width="420"/>
+
 # Seville's Home 🐾
 
 **A Cozy Pet Corner - Wellness Challenge Gamification Platform**
 
-Seville's Home is a web application that gamifies wellness challenges(or tasks) by allowing users to adopt and raise virtual pets. Complete daily wellness tasks to earn points, adopt adorable pets, level them up, and unlock special abilities that boost your progress!
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=FF8FAB&center=true&vCenter=true&width=520&lines=Complete+wellness+tasks+%F0%9F%8C%B1;Earn+points+%E2%9C%A8;Adopt+%26+raise+adorable+pets+%F0%9F%90%BE;Level+up+%26+unlock+power-ups+%F0%9F%9A%80" alt="Typing animation"/>
+
+<br/>
+
+![Status](https://img.shields.io/badge/status-active-ffb3c9?style=for-the-badge&labelColor=ff8fab)
+![Made with love](https://img.shields.io/badge/made%20with-%F0%9F%92%96-ff69b4?style=for-the-badge&labelColor=ff8fab)
+![Pets](https://img.shields.io/badge/pets-7%20breeds-b46bd6?style=for-the-badge&labelColor=ff8fab)
+![License](https://img.shields.io/badge/license-educational-8fd3ff?style=for-the-badge&labelColor=ff8fab)
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5.3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Supertest](https://img.shields.io/badge/Supertest-ff8fab?style=flat-square)
+![bcrypt](https://img.shields.io/badge/bcrypt-01579B?style=flat-square)
+
+<br/>
+
+[✨ Features](#features) • [🛠 Tech Stack](#tech-stack) • [🚀 Setup](#installation--setup) • [🔌 API](#api-endpoints) • [📘 Usage](#usage-guide) • [🎨 Credits](#credits)
+
+</div>
 
 ---
 
@@ -16,14 +51,38 @@ Seville's Home is a web application that gamifies wellness challenges(or tasks) 
 - [Installation & Setup](#installation--setup)
 - [API Endpoints](#api-endpoints)
 - [Usage Guide](#usage-guide)
+- [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
 - [Credits](#credits)
+- [Author](#author)
 - [License](#license)
 
 ---
 
+<a name="overview"></a>
 ## 🌟 Overview
 
+Seville's Home is a web application that gamifies wellness challenges (or tasks) by allowing users to adopt and raise virtual pets. Complete daily wellness tasks to earn points, adopt adorable pets, level them up, and unlock special abilities that boost your progress!
+
 Seville's Home combines wellness tracking with virtual pet adoption to create an engaging, motivating experience. Users complete wellness challenges to earn points, which they can use to adopt pets from the shop. Equipped pets gain experience and level up as users complete more tasks, eventually unlocking powerful abilities that provide point bonuses.
+
+### 🔁 The Core Loop
+
+```mermaid
+flowchart LR
+    A([🎯 Complete a wellness task]) --> B([⭐ Earn points])
+    B --> C([🛍 Adopt a pet])
+    C --> D([🐾 Equip your pet])
+    D --> E([📈 Pet gains XP and levels up])
+    E --> F([✨ Unlock abilities])
+    F -->|up to +90% bonus points| A
+```
+
+### 📊 At a Glance
+
+| 🐾 Pet Breeds | ⚡ Abilities | 📈 Pet Levels | 🎯 Task Rewards | 🎁 Max Bonus |
+|:---:|:---:|:---:|:---:|:---:|
+| **7** | **5** | **10** | **5 - 250 pts** | **+90%** |
 
 ### Key Concepts:
 - **Wellness Challenges**: Tasks created by users or the community (e.g., "Drink 2L of water", "Walk 5000 steps")
@@ -32,19 +91,22 @@ Seville's Home combines wellness tracking with virtual pet adoption to create an
 - **Pet Abilities**: Unlock special powers at different levels (1-5) that boost point rewards (10%-90% bonus)
 - **Community Features**: Leaderboards, reviews, and shared challenges
 
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="features"></a>
 ## ✨ Features
 
 ### 🎯 Core Functionality
 
-#### User Management
+#### 👤 User Management
 - User registration and authentication (JWT-based)
 - Profile management with points tracking
 - Account creation date tracking
 - Secure password hashing (bcrypt)
 
-#### Wellness Challenges
+#### 🌱 Wellness Challenges
 - Browse available community challenges
 - Create custom wellness tasks with point rewards (5-250 points)
 - Complete unique tasks once every 24 hours
@@ -53,7 +115,7 @@ Seville's Home combines wellness tracking with virtual pet adoption to create an
 - View personal completion history
 - Delete owned challenges
 
-#### Virtual Pet System
+#### 🐶 Virtual Pet System
 - **Pet Shop**: Adopt from 7 unique breeds
   - Happy Hippo (70 pts)
   - Playful Puppy (250 pts)
@@ -78,7 +140,7 @@ Seville's Home combines wellness tracking with virtual pet adoption to create an
   - Level 5: Universal Cheer Taiyaki (+90% points multiplier)
   - Abilities stack - highest unlocked ability of equipped pet applies
 
-#### Community Features
+#### 🏆 Community Features
 - **Leaderboard**: Top 5 users by total points earned
 - **Pet of the Day**: Most popular adopted breed
 - **Reviews System**: 
@@ -86,9 +148,30 @@ Seville's Home combines wellness tracking with virtual pet adoption to create an
   - Edit/delete your own reviews
   - One review per 24 hours per user
 
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="tech-stack"></a>
 ## 🛠 Tech Stack
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+</div>
 
 ### Frontend
 - **HTML5** - Semantic markup
@@ -112,9 +195,15 @@ Seville's Home combines wellness tracking with virtual pet adoption to create an
 - **Supertest** - HTTP assertion library
 - **Playwright** - End-to-end testing
 
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="project-structure"></a>
 ## 📁 Project Structure
+
+<details>
+<summary><b>Click to expand the full folder tree 🌳</b></summary>
 
 ```
 BED-CA2-YM-4/
@@ -122,6 +211,9 @@ BED-CA2-YM-4/
 ├── package.json               # Dependencies and scripts
 ├── .env                       # Environment variables (not in repo)
 ├── .gitignore                # Git ignore rules
+│
+├── assets/
+│   └── ascii-pet.svg         # Animated ASCII pet used in the README header
 │
 ├── public/                   # Static frontend files
 │   ├── index.html           # Home page with leaderboard
@@ -197,11 +289,33 @@ BED-CA2-YM-4/
         └── reviewRoutes.js            # Review routes
 ```
 
+</details>
+
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="database-schema"></a>
 ## 🗄 Database Schema
 
+### 🗺 Entity Relationship Overview
+
+```mermaid
+erDiagram
+    User ||--o{ UserPets : owns
+    User ||--o{ WellnessChallenge : creates
+    User ||--o{ UserCompletion : completes
+    User ||--o{ Reviews : writes
+    WellnessChallenge ||--o{ UserCompletion : "is completed in"
+    PetBreeds ||--o{ UserPets : "defines"
+    UserPets ||--o{ UserPetAbilities : unlocks
+    PetAbilities ||--o{ UserPetAbilities : "is granted as"
+```
+
 ### Tables
+
+<details>
+<summary><b>Click to expand all table definitions 📋</b></summary>
 
 #### User
 Stores user account information
@@ -295,6 +409,8 @@ Community reviews
 - created_at (TIMESTAMP)
 ```
 
+</details>
+
 ### Key Relationships
 - One User can have many Pets
 - One User can have one equipped Pet
@@ -302,12 +418,15 @@ Community reviews
 - One User can complete many Challenges
 - One Challenge can have many Completions
 
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="installation--setup"></a>
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - MySQL (v8.0 or higher)
 - npm or yarn package manager
 
@@ -383,17 +502,28 @@ Open your browser and navigate to:
 http://localhost:3000
 ```
 
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="api-endpoints"></a>
 ## 🔌 API Endpoints
 
-### Authentication
+> 💡 Click each group below to expand its endpoints.
+
+<details>
+<summary><b>🔐 Authentication</b> (2 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | POST | `/api/register` | Register new user | No |
 | POST | `/api/login` | Login user | No |
 
-### Users
+</details>
+
+<details>
+<summary><b>👤 Users</b> (5 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/users` | Get all users | No |
@@ -402,7 +532,11 @@ http://localhost:3000
 | PUT | `/api/users/:id` | Update user | Yes |
 | DELETE | `/api/users/:id` | Delete user | Yes |
 
-### Wellness Challenges
+</details>
+
+<details>
+<summary><b>🌱 Wellness Challenges</b> (5 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/challenges` | Get all challenges | No |
@@ -411,7 +545,11 @@ http://localhost:3000
 | DELETE | `/api/challenges/:id` | Delete challenge | Yes (Owner) |
 | GET | `/api/challenges/creator/:userId` | Get user's created challenges | Yes |
 
-### Task Completions
+</details>
+
+<details>
+<summary><b>✅ Task Completions</b> (5 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | POST | `/api/challenges/:id` | Complete a challenge | Yes |
@@ -420,7 +558,11 @@ http://localhost:3000
 | PUT | `/api/challenges/:id/edit` | Edit completion comment | Yes |
 | GET | `/api/challenges/users/:userId/power-bonus` | Get user's power bonus | Yes |
 
-### Pets
+</details>
+
+<details>
+<summary><b>🐾 Pets</b> (7 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/pets` | Get all user pets | No |
@@ -431,7 +573,11 @@ http://localhost:3000
 | PUT | `/api/users/:userId/equip-pet/:userPetId` | Equip pet | Yes |
 | PUT | `/api/users/:userId/unequip-pet` | Unequip pet | Yes |
 
-### Pet Breeds & Abilities
+</details>
+
+<details>
+<summary><b>⚡ Pet Breeds & Abilities</b> (5 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/breeds` | Get all pet breeds | No |
@@ -440,13 +586,21 @@ http://localhost:3000
 | GET | `/api/pets/:userPetId/abilities` | Get a pet's abilities | Yes |
 | POST | `/api/users/:userId/unlock/pets/:userPetId/ability/:abilityId` | Unlock ability | Yes |
 
-### Community
+</details>
+
+<details>
+<summary><b>🏆 Community</b> (2 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/leaderboard` | Get top 5 users | No |
 | GET | `/api/top-pet` | Get most popular pet | No |
 
-### Reviews
+</details>
+
+<details>
+<summary><b>⭐ Reviews</b> (5 endpoints)</summary>
+
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
 | GET | `/api/review` | Get all reviews | No |
@@ -455,8 +609,13 @@ http://localhost:3000
 | PUT | `/api/review/:id` | Update review | Yes (Owner) |
 | DELETE | `/api/review/:id` | Delete review | Yes (Owner) |
 
+</details>
+
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="usage-guide"></a>
 ## 📘 Usage Guide
 
 ### Getting Started
@@ -507,8 +666,54 @@ When you have an equipped pet with unlocked abilities:
 - Example: A task worth 100 points becomes 190 with max bonus!
 - Level up your pet and unlock all 5 abilities for maximum (+90%) gains
 
+| Ability Level | Ability | Bonus | 100-pt Task Becomes |
+|:---:|---|:---:|:---:|
+| 1 | Purrfect Purin Heal | +10% | 110 |
+| 2 | Sprint Snack Boost | +30% | 130 |
+| 3 | Shell Melonpan Sanctuary | +50% | 150 |
+| 4 | Backflip Dango Burst | +70% | 170 |
+| 5 | Universal Cheer Taiyaki | +90% | 190 |
+
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
 ---
 
+<a name="screenshots"></a>
+## 📸 Screenshots
+
+> 🖼 Drop your screenshots into a `docs/screenshots/` folder and swap the placeholders below with
+> `<img src="docs/screenshots/home.png" width="100%"/>` (one per cell).
+
+| 🏠 Home & Leaderboard | 🌱 Tasks |
+|:---:|:---:|
+| *add screenshot here* | *add screenshot here* |
+
+| 🐾 My Pets | 🛍 Pet Shop |
+|:---:|:---:|
+| *add screenshot here* | *add screenshot here* |
+
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
+---
+
+<a name="roadmap"></a>
+## 🗺 Roadmap
+
+- [x] JWT authentication with bcrypt password hashing
+- [x] Community wellness challenges with 24-hour completion cooldown
+- [x] Pet shop, equipping, XP and 10-level progression
+- [x] Ability power-ups with up to +90% point bonuses
+- [x] Leaderboard, pet of the day and reviews
+- [ ] Daily streaks and streak rewards
+- [ ] Pet accessories and cosmetics
+- [ ] Friends and challenge sharing
+- [ ] Dark mode
+
+<p align="right"><a href="#top">⬆ back to top</a></p>
+
+---
+
+<a name="credits"></a>
 ## 🎨 Credits
 
 ### Art Assets
@@ -523,8 +728,23 @@ When you have an equipped pet with unlocked abilities:
 - Authentication via JWT
 - Secure password hashing with bcrypt
 
+### README Extras
+- Banner and footer by [capsule-render](https://github.com/kyechan99/capsule-render)
+- Typing animation by [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg)
+- Badges by [Shields.io](https://shields.io)
+
 ---
 
+<a name="author"></a>
+## 👩‍💻 Author
+
+Made with 💖 by **[Your Name](https://github.com/ym-4)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ym-4)
+
+---
+
+<a name="license"></a>
 ## 📄 License
 
 This project is created as an educational assignment for BED CA2.
@@ -533,4 +753,10 @@ This project is created as an educational assignment for BED CA2.
 
 ---
 
+<div align="center">
+
 **Happy Pet Raising! 🐾**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" alt="footer" width="100%"/>
+
+</div>
