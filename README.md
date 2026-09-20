@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FFC8DD&height=220&section=header&text=Seville%27s%20Home&fontSize=64&fontColor=9EFFF4&stroke=FFFFFF&strokeWidth=2&animation=fadeIn&fontAlignY=38&desc=A%20Cozy%20Pet%20Corner%20%E2%80%A2%20Wellness%20Challenge%20Gamification%20Platform&descAlignY=60&descSize=18" alt="Seville's Home banner" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FFC8DD&height=220&section=header&text=Seville%27s%20Home&fontSize=64&fontColor=387855&stroke=FFFFFF&strokeWidth=2&animation=fadeIn&fontAlignY=38&desc=A%20Cozy%20Pet%20Corner%20%E2%80%A2%20Wellness%20Challenge%20Gamification%20Platform&descAlignY=60&descSize=18" alt="Seville's Home banner" width="100%"/>
 
 <img src="./assets/ascii-pet.svg" alt="Animated ASCII pet" width="420"/>
 
@@ -714,9 +714,9 @@ This project is created as an educational assignment for BED CA2.
 
 <div align="center">
 
-**Happy Pet Raising! 🐾**
+<img src="https://media.tenor.com/3tbpcFyQdVoAAAAm/blue-roll.webp" alt="blue roll" width="120"/>
 
-<img src="https://media.tenor.com/3tbpcFyQdVoAAAAm/blue-roll.webp" alt="blue roll" width="140"/>
+**Happy Pet Raising! 🐾**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFC8DD&height=120&section=footer" alt="footer" width="100%"/>
 
