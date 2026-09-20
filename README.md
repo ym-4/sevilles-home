@@ -696,23 +696,6 @@ When you have an equipped pet with unlocked abilities:
 
 ---
 
-<a name="roadmap"></a>
-## 🗺 Roadmap
-
-- [x] JWT authentication with bcrypt password hashing
-- [x] Community wellness challenges with 24-hour completion cooldown
-- [x] Pet shop, equipping, XP and 10-level progression
-- [x] Ability power-ups with up to +90% point bonuses
-- [x] Leaderboard, pet of the day and reviews
-- [ ] Daily streaks and streak rewards
-- [ ] Pet accessories and cosmetics
-- [ ] Friends and challenge sharing
-- [ ] Dark mode
-
-<p align="right"><a href="#top">⬆ back to top</a></p>
-
----
-
 <a name="credits"></a>
 ## 🎨 Credits
 
@@ -737,8 +720,6 @@ When you have an equipped pet with unlocked abilities:
 
 <a name="author"></a>
 ## 👩‍💻 Author
-
-Made with 💖 by **[Your Name](https://github.com/ym-4)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ym-4)
 
